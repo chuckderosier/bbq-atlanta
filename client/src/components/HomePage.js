@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class HomePage extends Component {
     render() {
@@ -9,11 +9,11 @@ class HomePage extends Component {
                     <h2>Share and rate BBQ Restaurants in Atlanta</h2>
                 </div>
                 <div className="description">
-                    <p>Description</p>
+                    <p>Yes you can find ratings for </p>
                 </div>
             </div>
         )
     }
 }
 
-export default HomePage;
+export default HomePage
