@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import HomePage from './components/HomePage'
 
-function App() {
+class App extends Component {
   render () {
     return (
       <Router>

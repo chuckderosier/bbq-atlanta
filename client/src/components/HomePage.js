@@ -12,7 +12,7 @@ class HomePage extends Component {
                     <p>Description</p>
                 </div>
             </div>
-        );
+        )
     }
 }
 
