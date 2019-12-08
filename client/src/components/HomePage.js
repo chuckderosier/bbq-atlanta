@@ -1,16 +1,21 @@
 import React, { Component } from 'react'
+import { Title, Description } from '../Styles/TextStyles'
 
 class HomePage extends Component {
     render() {
         return (
             <div>
-                <div className="title">
+                <Title>
                     <h1>BBQ Atlanta</h1>
                     <h2>Share and rate BBQ Restaurants in Atlanta</h2>
-                </div>
-                <div className="description">
-                    <p>Yes you can find ratings for </p>
-                </div>
+                </Title>
+                <Description>
+                    <div className="descriptionBox">
+                        <p>There are many places that rate restaurants but I know of none that rates different items on the menu.</p>
+                        <h4>Why would you care about that?</h4>
+                        <p>I have to places that had great ribs but mediocre pulled pork. Overall ratings do not tell all you need to know before you choose your destination.</p>
+                    </div>
+                </Description>
             </div>
         )
     }
