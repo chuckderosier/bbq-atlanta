@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import styled from 'styled-components'
 import { Title, Description } from '../Styles/TextStyles'
 
 class HomePage extends Component {
@@ -7,12 +8,12 @@ class HomePage extends Component {
             <div>
                 <Title>
                     <h1>BBQ Atlanta</h1>
-                    <h2>Share and rate BBQ Restaurants in Atlanta</h2>
+                    <h2>Share and Rate BBQ Restaurants in Atlanta</h2>
                 </Title>
                 <Description>
                     <div className="descriptionBox">
-                        <p>There are many places that rate restaurants but I know of none that rates different items on the menu.</p>
-                        <h4>Why would you care about that?</h4>
+                        <p>There are many websites that rate restaurants but I know of none that rates different items on the menu.</p>
+                        <h4>Why is that important?</h4>
                         <p>I have to places that had great ribs but mediocre pulled pork. Overall ratings do not tell all you need to know before you choose your destination.</p>
                     </div>
                 </Description>
