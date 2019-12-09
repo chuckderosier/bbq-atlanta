@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import styled from 'styled-components'
 import { Title, Description } from '../Styles/TextStyles'
+import { HomePageButton } from '../Styles/ButtonStyles'
 
 class HomePage extends Component {
     render() {
@@ -18,10 +18,10 @@ class HomePage extends Component {
                         <p>I have to places that had great ribs but mediocre pulled pork. Overall ratings do not tell all you need to know before you choose your destination.</p>
                     </div>
                 </Description>
-                <div>
-                    <Link to="/login">Login</Link>
-                    <Link to="/newuser">Create Your Account</Link>
-                </div>
+                <HomePageButton>
+                    <Link to="/login" className='button'>Login</Link>
+                    <Link to="/newuser" className='button'>Create Your Account</Link>
+                </HomePageButton>
             </div>
         )
     }
