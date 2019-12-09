@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-class Login extends Component {
+class CreateUserForm extends Component {
     render() {
         return (
             <div>
-                
+                <h1>Create New User</h1>
             </div>
         )
     }
 }
 
-export default Login
+export default CreateUserForm
