@@ -12,4 +12,7 @@ export const Form = styled.div`
         margin: 2em auto;
         padding: 1em;
     }
+    p {
+        margin: .2em auto;
+    }
 `
