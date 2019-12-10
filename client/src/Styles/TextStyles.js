@@ -16,7 +16,7 @@ export const Title = styled.div`
 
 export const Description = styled.div`
         text-align: center;
-        .descriptionBox {
+        .description-container {
             display: flex;
             flex-direction: column;
             align-items: center;
