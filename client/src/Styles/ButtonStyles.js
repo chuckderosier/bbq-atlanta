@@ -2,26 +2,27 @@ import styled from 'styled-components'
 
 export const Button = styled.div`
     margin: 0 auto;
-    border-radius: 1em;
     .button {
         color: black;
         text-decoration: none;
+        font-weight: bold;
+        border-radius: 15px;
+        padding: .8em;
     }
 `
 
 export const HomePageButton = styled(Button)`
-    
-    background-color: red;
+    margin: 1em auto;
+    width: 40%;
     .button-container {
-        width: 40%;
         display: flex;
         justify-content: center;
     }
     .button {
-        margin: .5em auto;
-        width: 5%;
+        margin: 0 auto;
         height: 5%;
         color: white;
+        background-color: red;
         text-align: center;
     }
 `

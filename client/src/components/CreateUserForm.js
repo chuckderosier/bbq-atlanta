@@ -1,13 +1,19 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import styled from 'styled-components'
 import { Form } from '../Styles/FormStyles'
 import { Title } from '../Styles/TextStyles'
 import { Button } from '../Styles/ButtonStyles'
 
+const PageContainer = styled.div`
+    width: 40%;
+    margin: 0 auto;
+`
+
 class CreateUserForm extends Component {
     render() {
         return (
-            <div>
+            <PageContainer>
                 <Title>
                     <h1>Create New User</h1>
                 </Title>
@@ -23,10 +29,10 @@ class CreateUserForm extends Component {
                     <p>Re-enter Password<span className="required">* required</span></p>
                     <input type="text" placeholder="Re-enter Password" name="reenterPassword" required />
                     <Button>
-                        <button><Link to="/userpage" className="button">Let's Go!!</Link></button>
+                        <button className="button"><Link to="/userpage" className="button">Let's Go!!</Link></button>
                     </Button>
                 </Form>
-            </div>
+            </PageContainer>
         )
     }
 }
