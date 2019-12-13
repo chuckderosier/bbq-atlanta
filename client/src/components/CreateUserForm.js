@@ -18,10 +18,8 @@ class CreateUserForm extends Component {
                     <h1>Create New User</h1>
                 </Title>
                 <Form>
-                    <p>First Name<span className="required">* required</span></p>
-                    <input type="text" placeholder="First Name" name="firstName" required />
-                    <p>Last Name<span className="required">* required</span></p>
-                    <input type="text" placeholder="Last Name" name="lastName" required />
+                    <p>Full Name<span className="required">* required</span></p>
+                    <input type="text" placeholder="Full Name" name="fullName" required />
                     <p>Email<span className="required">* required</span></p>
                     <input type="email" placeholder="Email Address" name="email" required />
                     <p>Enter Password<span className="required">* required</span></p>
