@@ -5,10 +5,11 @@ const User = new Schema({
     userName: String,
     userEmail: String,
     password: "password",
+    userLoggeIn: Boolean,
     bbqStyle: [],
     restaurants: [{
         type: Schema.Types.ObjectId,
-        ref: 'Restaurants'
+        ref: 'Restaurant'
     }]
 })
 

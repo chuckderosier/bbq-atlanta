@@ -3,19 +3,20 @@ const Schema = mongoose.Schema
 
 const Restaurant = new Schema({
     restaurantName: String,
+    restaurantSauce: [],
     restaurantLocation: String,
     restaurantHours: String,
-    restaurantMains: [{
+    restaurantMain: [{
         type: Schema.Types.ObjectId,
-        ref: 'Mains'
+        ref: 'Main'
     }],
-    restaurantSides: [{
+    restaurantSide: [{
         type: Schema.Types.ObjectId,
-        ref: 'Sides'
+        ref: 'Side'
     }],
-    restaurantDesserts: [{
+    restaurantDessert: [{
         type: Schema.Types.ObjectId,
-        ref: 'Desserts'
+        ref: 'Dessert'
     }]
 })
 
