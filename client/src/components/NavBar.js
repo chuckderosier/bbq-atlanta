@@ -7,9 +7,14 @@ class NavBar extends Component {
         return (
             <div>
                 <div className="left">
-                    <Link to="/"
+                    <Link to="/userpage" className="button">Back to your home page</Link>
+                    <Link to="/" className="button">Change your profile</Link>
+                    <Link to="/" className="button">Add a new BBQ Joint</Link>
                 </div>
-                <div className="right"></div>
+                <div className="right">
+                    <Link to="/" className="button">See other people's BBQ Joints</Link>
+                    <Link to="/" className="button">Logout</Link>
+                </div>
             </div>
         )
     }
