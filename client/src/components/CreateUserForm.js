@@ -11,6 +11,7 @@ const PageContainer = styled.div`
 `
 class SignIn extends Component {
     state = {
+        user: {},
         newUser: {
             name: "",
             email: "",
@@ -18,6 +19,23 @@ class SignIn extends Component {
             bbqStyle: []
         }
     }
+}
+
+handleSubmit = event => {
+    event.preventDefault()
+    const payload = {
+        name: this.state.newUser.name,
+        email: this.state.newUser.email,
+        password: this.newUser.password,
+        bbqStyle: this.newUser.bbqStyle
+    }
+    // React Hook here
+}
+
+handleChange = event => {
+    const updatedNewUser = { ...this.state.newUser }
+    updatedNewUser[event.target.name] - event.target.value
+    this.ListeningStateChangedEvent({ newUser: updateNewUser })
 }
 class CreateUserForm extends Component {
     render() {
