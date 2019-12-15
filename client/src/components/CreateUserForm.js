@@ -9,7 +9,16 @@ const PageContainer = styled.div`
     width: 40%;
     margin: 0 auto;
 `
-
+class SignIn extends Component {
+    state = {
+        newUser: {
+            name: "",
+            email: "",
+            password: "",
+            bbqStyle: []
+        }
+    }
+}
 class CreateUserForm extends Component {
     render() {
         return (
@@ -19,13 +28,26 @@ class CreateUserForm extends Component {
                 </Title>
                 <Form>
                     <p>Full Name<span className="required">* required</span></p>
-                    <input type="text" placeholder="Full Name" name="fullName" required />
+                    <input
+                        type="text"
+                        placeholder="Full Name"
+                        name="name"
+                        required
+                        />
                     <p>Email<span className="required">* required</span></p>
-                    <input type="email" placeholder="Email Address" name="email" required />
+                    <input
+                        type="email"
+                        placeholder="Email Address"
+                        name="email"
+                        required
+                        />
                     <p>Enter Password<span className="required">* required</span></p>
-                    <input type="text" placeholder="Enter Password" name="password" required />
-                    <p>Re-enter Password<span className="required">* required</span></p>
-                    <input type="text" placeholder="Re-enter Password" name="reenterPassword" required />
+                    <input
+                        type="text"
+                        placeholder="Enter Password"
+                        name="password"
+                        required
+                        />
                     <Button>
                         <button className="button"><Link to="/userpage" className="button">Let's Go!!</Link></button>
                     </Button>
