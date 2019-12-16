@@ -10,34 +10,34 @@ const PageContainer = styled.div`
     margin: 0 auto;
 `
 
-class SignIn extends Component {
-    state = {
-        user: {},
-        newUser: {
-            name: "",
-            email: "",
-            password: "",
-            bbqStyle: []
-        }
-    }
-}
+// class SignIn extends Component {
+//     state = {
+//         user: {},
+//         newUser: {
+//             name: "",
+//             email: "",
+//             password: "",
+//             bbqStyle: []
+//         }
+//     }
+// }
 
-handleSubmit = event => {
-    event.preventDefault()
-    const payload = {
-        name: this.state.newUser.name,
-        email: this.state.newUser.email,
-        password: this.newUser.password,
-        bbqStyle: this.newUser.bbqStyle
-    }
-    // React Hook here
-}
+// handleSubmit = event => {
+//     event.preventDefault()
+//     const payload = {
+//         name: this.state.newUser.name,
+//         email: this.state.newUser.email,
+//         password: this.newUser.password,
+//         bbqStyle: this.newUser.bbqStyle
+//     }
+//     // React Hook here
+// }
 
-handleChange = event => {
-    const updatedNewUser = { ...this.state.newUser }
-    updatedNewUser[event.target.name] - event.target.value
-    this.ListeningStateChangedEvent({ newUser: updateNewUser })
-}
+// handleChange = event => {
+//     const updatedNewUser = { ...this.state.newUser }
+//     updatedNewUser[event.target.name] - event.target.value
+//     this.ListeningStateChangedEvent({ newUser: updateNewUser })
+// }
 
 
 class Login extends Component {
@@ -63,7 +63,7 @@ class Login extends Component {
                             name="userPassword"
                             required
                         />
-                        <button><Link to="/userpage">Let's Go!!</Link></button>
+                        <button className="button"><Link to="/userpage">Let's Go!!</Link></button>
                     </Form>
                 </div>
                 <div>

@@ -14,7 +14,7 @@ export const Title = styled.div`
         }
 `
 
-export const Description = styled.div`
+export const Text = styled.div`
         text-align: center;
         .description-container {
             display: flex;

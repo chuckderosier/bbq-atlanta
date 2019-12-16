@@ -8,6 +8,7 @@ export const Button = styled.div`
         font-weight: bold;
         border-radius: 15px;
         padding: .8em;
+        text-align: center;
     }
 `
 
@@ -23,6 +24,5 @@ export const HomePageButton = styled(Button)`
         height: 5%;
         color: white;
         background-color: red;
-        text-align: center;
     }
 `

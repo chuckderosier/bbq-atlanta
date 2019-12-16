@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import { Title, Description } from '../Styles/TextStyles'
+import { Title, Text } from '../Styles/TextStyles'
 import { HomePageButton } from '../Styles/ButtonStyles'
 
 class HomePage extends Component {
@@ -11,13 +11,13 @@ class HomePage extends Component {
                     <h1>BBQ Atlanta</h1>
                     <h2>Share and Rate BBQ Restaurants in Atlanta</h2>
                 </Title>
-                <Description>
+                <Text>
                     <div className="description-container">
                         <p>There are many websites that rate restaurants but I know of none that rates different items on the menu.</p>
                         <h4>Why is that important?</h4>
                         <p>I have to places that had great ribs but mediocre pulled pork. Overall ratings do not tell all you need to know before you choose your destination.</p>
                     </div>
-                </Description>
+                </Text>
                 <HomePageButton>
                     <div className="button-container">
                         <Link to="/login" className='button'>Login</Link>
