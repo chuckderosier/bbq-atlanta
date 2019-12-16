@@ -9,7 +9,7 @@ class HomePage extends Component {
             <div>
                 <Title>
                     <h1>BBQ Atlanta</h1>
-                    <h2>Share and Rate BBQ Restaurants in Atlanta</h2>
+                    <h3>Share and Rate BBQ Restaurants in Atlanta</h3>
                 </Title>
                 <Text>
                     <div className="description-container">
@@ -20,7 +20,7 @@ class HomePage extends Component {
                 </Text>
                 <HomePageButton>
                     <div className="button-container">
-                        <Link to="/login" className='button'>Login</Link>
+                        <Link to="/login" className='button'>Login<br/>or<br/>Create New Account</Link>
                     </div>
                 </HomePageButton>
             </div>

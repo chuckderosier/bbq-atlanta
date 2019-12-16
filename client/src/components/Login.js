@@ -46,7 +46,7 @@ class Login extends Component {
             <PageContainer>
                 <div>
                     <Title>
-                        <h1>Login</h1>
+                        <h2>Login</h2>
                     </Title>
                     <Form>
                         <p>Email<span className="required">* required</span></p>
@@ -63,12 +63,14 @@ class Login extends Component {
                             name="userPassword"
                             required
                         />
-                        <button className="button"><Link to="/userpage">Let's Go!!</Link></button>
+                        <Button>
+                            <button className="button"><Link to="/userpage" className="button">Let's Go!!</Link></button>
+                        </Button>
                     </Form>
                 </div>
                 <div>
                     <Title>
-                        <h1>Create New User</h1>
+                        <h2>Create New User</h2>
                     </Title>
                     <Form>
                         <p>Full Name<span className="required">* required</span></p>

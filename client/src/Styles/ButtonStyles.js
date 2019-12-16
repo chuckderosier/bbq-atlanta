@@ -8,7 +8,6 @@ export const Button = styled.div`
         font-weight: bold;
         border-radius: 15px;
         padding: .8em;
-        text-align: center;
     }
 `
 
