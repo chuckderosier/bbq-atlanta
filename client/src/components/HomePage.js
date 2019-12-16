@@ -21,7 +21,6 @@ class HomePage extends Component {
                 <HomePageButton>
                     <div className="button-container">
                         <Link to="/login" className='button'>Login</Link>
-                        <Link to="/newuser" className='button'>Create Your Account</Link>
                     </div>
                 </HomePageButton>
             </div>

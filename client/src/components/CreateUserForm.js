@@ -41,6 +41,16 @@ class CreateUserForm extends Component {
     render() {
         return (
             <PageContainer>
+                <div>
+                    <h1>Login</h1>
+                    <Form>
+                        <p>Email<span className="required">* required</span></p>
+                        <input type="email" placeholder="Email" name="userEmail" required />
+                        <p>Password<span className="required">* required</span></p>
+                        <input type="password" placeholder="Password" name="userPassword" required />
+                        <button><Link to="/userpage">Let's Go!!</Link></button>
+                    </Form>
+                </div>
                 <Title>
                     <h1>Create New User</h1>
                 </Title>
