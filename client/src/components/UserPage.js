@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { NavBar } from '../components/NavBar'
+import NavBar from './NavBar'
 import { Title, Text } from '../Styles/TextStyles'
 
 class UserPage extends Component {

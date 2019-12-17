@@ -1,5 +1,10 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import styled from 'styled-components'
+
+const NavBarStyle = styled.div`
+    margin: 0 auto;
+`
 
 class NavBar extends Component {
     render() {
