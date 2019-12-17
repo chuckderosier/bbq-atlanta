@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
+import { NavBar } from '../components/NavBar'
 import { Title, Text } from '../Styles/TextStyles'
 
 class UserPage extends Component {
     render() {
         return (
             <div>
+                <NavBar />
                 <div className="left">
                     <Title>
                         <h1>This is 's bbq menu</h1>

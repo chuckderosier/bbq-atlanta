@@ -7,6 +7,9 @@ export const Title = styled.div`
             font-size: 3em;
             margin: 0 auto;
         }
+        h2 {
+            font-size: 2em;
+        }
         h3 {
             font-size: 1em;
             width: 40%;

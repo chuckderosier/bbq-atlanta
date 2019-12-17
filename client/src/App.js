@@ -3,12 +3,14 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import HomePage from './components/HomePage'
 import Login from './components/Login'
 import UserPage from './components/UserPage'
+import OtherUsersPage from './components/OtherUsersPage'
 
 class App extends Component {
   render () {
     return (
       <Router>
         <Switch>
+          <Route exact path='/otheruserspage' component={OtherUsersPage} />
           <Route exact path='/userpage' component={UserPage} />
           <Route exact path='/login' component={Login} />
           <Route path='/' component={HomePage} />
