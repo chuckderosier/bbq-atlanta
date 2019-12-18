@@ -11,6 +11,6 @@ export const RightStyle = styled.div`
 `
 
 export const MenuStyle = styled.div`
-    margin: 0 auto;
+    margin: 1em auto;
     width: 80%;
 `
