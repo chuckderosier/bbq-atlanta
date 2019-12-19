@@ -22,6 +22,7 @@ export const HomePageButton = styled(Button)`
         margin: 0 auto;
         height: 5%;
         color: white;
+        text-align: center;
         background-color: red;
     }
 `
