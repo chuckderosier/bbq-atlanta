@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import NavBar from './NavBar'
 import { Title, Text } from '../Styles/TextStyles'
-import { LeftStyle, RightStyle, MenuStyle } from '../Styles/ContainerStyle'
+import { LeftStyle, RightStyle, OpenMenuStyle } from '../Styles/ContainerStyle'
 
 class UserPage extends Component {
     render() {
         return (
             <div>
                 <NavBar />
-                <MenuStyle>
+                <OpenMenuStyle>
                     <LeftStyle>
                         <Title>
                             <h2>This is your bbq menu</h2>
@@ -17,7 +17,7 @@ class UserPage extends Component {
                         </Title>
                     </LeftStyle>
                     <RightStyle></RightStyle>
-                </MenuStyle>
+                </OpenMenuStyle>
             </div>
         )
     }

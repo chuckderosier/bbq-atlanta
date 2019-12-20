@@ -10,7 +10,7 @@ export const RightStyle = styled.div`
     float: right;
 `
 
-export const MenuStyle = styled.div`
+export const OpenMenuStyle = styled.div`
     margin: 1em auto;
     width: 80%;
 `

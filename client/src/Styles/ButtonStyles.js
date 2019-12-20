@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Button = styled.div`
+export const ButtonStyle = styled.div`
     margin: 0 auto;
     .button {
         color: black;
@@ -11,7 +11,7 @@ export const Button = styled.div`
     }
 `
 
-export const HomePageButton = styled(Button)`
+export const HomePageButton = styled(ButtonStyle)`
     margin: 1em auto;
     width: 40%;
     .button-container {

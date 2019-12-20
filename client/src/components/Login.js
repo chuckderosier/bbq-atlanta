@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { Form } from '../Styles/FormStyles'
 import { Title } from '../Styles/TextStyles'
-import { Button } from '../Styles/ButtonStyles'
+import { ButtonStyle } from '../Styles/ButtonStyles'
 
 const PageContainer = styled.div`
     width: 40%;
@@ -63,9 +63,9 @@ class Login extends Component {
                             name="userPassword"
                             required
                         />
-                        <Button>
+                        <ButtonStyle>
                             <button className="button"><Link to="/userpage" className="button">Let's Go!!</Link></button>
-                        </Button>
+                        </ButtonStyle>
                     </Form>
                 </div>
                 <div>
@@ -94,9 +94,9 @@ class Login extends Component {
                             name="password"
                             required
                         />
-                        <Button>
+                        <ButtonStyle>
                             <button className="button"><Link to="/userpage" className="button">Let's Go!!</Link></button>
-                        </Button>
+                        </ButtonStyle>
                     </Form>
                 </div>
             </PageContainer>
