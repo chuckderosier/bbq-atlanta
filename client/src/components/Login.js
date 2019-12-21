@@ -1,49 +1,14 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import styled from 'styled-components'
+import { ClosedMenuStyle } from '../Styles/ContainerStyle'
 import { Form } from '../Styles/FormStyles'
 import { Title } from '../Styles/TextStyles'
 import { ButtonStyle } from '../Styles/ButtonStyles'
 
-const PageContainer = styled.div`
-    width: 40%;
-    margin: 0 auto;
-`
-
-// class SignIn extends Component {
-//     state = {
-//         user: {},
-//         newUser: {
-//             name: "",
-//             email: "",
-//             password: "",
-//             bbqStyle: []
-//         }
-//     }
-// }
-
-// handleSubmit = event => {
-//     event.preventDefault()
-//     const payload = {
-//         name: this.state.newUser.name,
-//         email: this.state.newUser.email,
-//         password: this.newUser.password,
-//         bbqStyle: this.newUser.bbqStyle
-//     }
-//     // React Hook here
-// }
-
-// handleChange = event => {
-//     const updatedNewUser = { ...this.state.newUser }
-//     updatedNewUser[event.target.name] - event.target.value
-//     this.ListeningStateChangedEvent({ newUser: updateNewUser })
-// }
-
-
 class Login extends Component {
     render() {
         return (
-            <PageContainer>
+            <ClosedMenuStyle>
                 <div>
                     <Title>
                         <h2>Login</h2>
@@ -99,7 +64,7 @@ class Login extends Component {
                         </ButtonStyle>
                     </Form>
                 </div>
-            </PageContainer>
+            </ClosedMenuStyle>
         )
     }
 }

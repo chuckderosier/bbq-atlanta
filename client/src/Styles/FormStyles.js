@@ -3,10 +3,11 @@ import styled from 'styled-components'
 export const Form = styled.div`
     display: flex;
     flex-direction: column;
-    align-self: center;
+    align-content: center;
+    width: 80%;
     input {
         margin: 0 auto;
-        width: 100%;
+        width: 90%
     }
     button {
         margin: 2em auto;
