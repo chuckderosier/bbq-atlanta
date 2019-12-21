@@ -5,9 +5,8 @@ export const Form = styled.div`
     flex-direction: column;
     align-content: center;
     input {
-        margin: 0 auto;
         width: 100%;
-        height: 2em;
+        height: 1.5em;
         font-size: 1em;
     }
     button {
