@@ -24,3 +24,8 @@ export const ClosedMenuStyle = styled.div`
     height: 95%;
     background-color: rgb(255, 245, 230);
 `
+
+ export const FormContainerStyle = styled.div`
+    margin: 0 auto;
+    /* display: flex; */
+`

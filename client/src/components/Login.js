@@ -4,12 +4,13 @@ import { ClosedMenuStyle } from '../Styles/ContainerStyle'
 import { Form } from '../Styles/FormStyles'
 import { Title } from '../Styles/TextStyles'
 import { ButtonStyle } from '../Styles/ButtonStyles'
+import { FormContainerStyle } from '../Styles/ContainerStyle'
 
 class Login extends Component {
     render() {
         return (
             <ClosedMenuStyle>
-                <div>
+                <FormContainerStyle>
                     <Title>
                         <h2>Login</h2>
                     </Title>
@@ -32,11 +33,11 @@ class Login extends Component {
                             <button className="button"><Link to="/userpage" className="button">Let's Go!!</Link></button>
                         </ButtonStyle>
                     </Form>
-                </div>
-                <div>
+                </FormContainerStyle>
                     <Title>
                         <h2>Create New User</h2>
                     </Title>
+                <FormContainerStyle>
                     <Form>
                         <p>Full Name<span className="required">* required</span></p>
                         <input
@@ -63,7 +64,7 @@ class Login extends Component {
                             <button className="button"><Link to="/userpage" className="button">Let's Go!!</Link></button>
                         </ButtonStyle>
                     </Form>
-                </div>
+                </FormContainerStyle>
             </ClosedMenuStyle>
         )
     }

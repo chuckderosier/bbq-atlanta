@@ -6,8 +6,7 @@ export const Form = styled.div`
     align-content: center;
     width: 80%;
     input {
-        margin: 0 auto;
-        width: 90%
+        margin: 0 auto;  
     }
     button {
         margin: 2em auto;
