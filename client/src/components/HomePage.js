@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import { ClosedMenuStyle } from '../Styles/ContainerStyle'
 import { Title, Text } from '../Styles/TextStyles'
 import { HomePageButton } from '../Styles/ButtonStyles'
 
 class HomePage extends Component {
     render() {
         return (
-            <div>
+            <ClosedMenuStyle>
                 <Title>
                     <h1>BBQ Atlanta</h1>
                     <h3>Share and Rate BBQ Restaurants in Atlanta</h3>
@@ -20,10 +21,10 @@ class HomePage extends Component {
                 </Text>
                 <HomePageButton>
                     <div className="button-container">
-                        <Link to="/login" className='button'>Login<br/>or<br/>Create New Account</Link>
+                        <Link to="/login" className='button'>Login<br />or<br />Create New Account</Link>
                     </div>
                 </HomePageButton>
-            </div>
+            </ClosedMenuStyle>
         )
     }
 }

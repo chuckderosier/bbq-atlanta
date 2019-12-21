@@ -13,7 +13,7 @@ export const Title = styled.div`
         }
         h3 {
             font-size: 1em;
-            width: 40%;
+            width: 80%;
             margin: 0 auto;
         }
 `
@@ -31,7 +31,7 @@ export const Text = styled.div`
         }
         p {
             font-size: 1em;
-            width: 40%;
+            width: 80%;
             margin: 0 auto;
         }
 `
