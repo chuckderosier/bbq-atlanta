@@ -19,7 +19,8 @@ export const ClosedMenuStyle = styled.div`
     display: flex;
     flex-direction: column;
     justify-self: center;
-    margin: 20px auto;
+    align-self: center;
+    margin: 0 auto;
     width: 30%;
     height: 95%;
     background-color: rgb(255, 245, 230);
@@ -27,5 +28,5 @@ export const ClosedMenuStyle = styled.div`
 
  export const FormContainerStyle = styled.div`
     margin: 0 auto;
-    /* display: flex; */
+    width: 90%;
 `

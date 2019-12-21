@@ -2,13 +2,13 @@ import styled from 'styled-components'
 
 export const Title = styled.div`
         text-align: center;
-        margin: 1em auto 4em auto;
+        margin: 1em auto;
         h1 {
             font-size: 3em;
             margin: 0 auto;
         }
         h2 {
-            font-size: 2em;
+            font-size: 1.6em;
             margin: 0 auto;
         }
         h3 {

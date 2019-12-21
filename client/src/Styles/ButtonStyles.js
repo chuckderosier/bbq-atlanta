@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ButtonStyle = styled.div`
-    margin: 0 auto;
+    margin: .5em auto;
     .button {
         color: black;
         text-decoration: none;

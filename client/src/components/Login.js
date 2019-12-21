@@ -11,10 +11,10 @@ class Login extends Component {
         return (
             <ClosedMenuStyle>
                 <FormContainerStyle>
-                    <Title>
-                        <h2>Login</h2>
-                    </Title>
                     <Form>
+                        <Title>
+                            <h2>Login</h2>
+                        </Title>
                         <p>Email<span className="required">* required</span></p>
                         <input
                             type="email"
@@ -34,10 +34,10 @@ class Login extends Component {
                         </ButtonStyle>
                     </Form>
                 </FormContainerStyle>
+                <FormContainerStyle>
                     <Title>
                         <h2>Create New User</h2>
                     </Title>
-                <FormContainerStyle>
                     <Form>
                         <p>Full Name<span className="required">* required</span></p>
                         <input
