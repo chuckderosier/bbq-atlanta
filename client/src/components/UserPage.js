@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import NavBar from './NavBar'
 import { Title, Text } from '../Styles/TextStyles'
+import { InvisibleBox } from '../Styles/ContainerStyle'
 import { LeftStyle, RightStyle, OpenMenuStyle } from '../Styles/ContainerStyle'
 
 class UserPage extends Component {
     render() {
         return (
-            <div>
+            <InvisibleBox>
                 <NavBar />
                 <OpenMenuStyle>
                     <LeftStyle>
@@ -18,7 +19,7 @@ class UserPage extends Component {
                     </LeftStyle>
                     <RightStyle></RightStyle>
                 </OpenMenuStyle>
-            </div>
+            </InvisibleBox>
         )
     }
 }

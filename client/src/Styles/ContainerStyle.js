@@ -7,21 +7,6 @@ export const InvisibleBox = styled.div`
     height: 100%;
 `
 
-export const LeftStyle = styled.div`
-    margin: 0 auto;
-    float: left;
-`
-
-export const RightStyle = styled.div`
-    margin: 0 auto;
-    float: right;
-`
-
-export const OpenMenuStyle = styled.div`
-    margin: 1em auto;
-    width: 80%;
-`
-
 export const ClosedMenuStyle = styled.div`
     display: flex;
     flex-direction: column;
@@ -33,6 +18,18 @@ export const ClosedMenuStyle = styled.div`
     background-color: rgb(255, 245, 230);
     border: .5em solid rgb(100, 50, 50);
     border-radius: .5em;
+`
+
+export const OpenMenuStyle = styled(ClosedMenuStyle)``
+
+export const LeftStyle = styled.div`
+    margin: 0 auto;
+    float: left;
+`
+
+export const RightStyle = styled.div`
+    margin: 0 auto;
+    float: right;
 `
 
  export const FormContainerStyle = styled.div`
