@@ -20,16 +20,18 @@ export const ClosedMenuStyle = styled.div`
     border-radius: .5em;
 `
 
-export const OpenMenuStyle = styled(ClosedMenuStyle)``
+export const OpenMenuStyle = styled(ClosedMenuStyle)`
+    margin: 0 auto;
+`
 
 export const LeftStyle = styled.div`
-    margin: 0 auto;
-    float: left;
+    margin: 0;
+    /* float: left; */
 `
 
 export const RightStyle = styled.div`
-    margin: 0 auto;
-    float: right;
+    margin: 0;
+    /* float: right; */
 `
 
  export const FormContainerStyle = styled.div`
