@@ -9,19 +9,17 @@ class UserPage extends Component {
     render() {
         return (
             <InvisibleBox>
-                <OpenMenuStyle>
-                    <LeftStyle>
-                        <NavBarLeft />
-                        <Title>
-                            <h2>This is your bbq menu</h2>
-                            <h4>Your preferred BBQ styles:</h4>
-                            <Text></Text>
-                        </Title>
-                    </LeftStyle>
-                    <RightStyle>
-                        <NavBarRight />
-                    </RightStyle>
-                </OpenMenuStyle>
+                <LeftStyle>
+                    <NavBarLeft />
+                    <Title>
+                        <h2>This is your bbq menu</h2>
+                        <h4>Your preferred BBQ styles:</h4>
+                        <Text></Text>
+                    </Title>
+                </LeftStyle>
+                <RightStyle>
+                    <NavBarRight />
+                </RightStyle>
             </InvisibleBox>
         )
     }

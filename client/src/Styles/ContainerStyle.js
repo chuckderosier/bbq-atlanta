@@ -20,7 +20,7 @@ export const ClosedMenuStyle = styled.div`
     border-radius: .5em;
 `
 
-export const OpenMenuStyle = styled(ClosedMenuStyle)`
+export const OpenMenuStyle = styled.div`
     margin: 0 auto;
 `
 
@@ -28,7 +28,7 @@ export const LeftStyle = styled.div`
     margin: 0;
     width: 30%;
     height: 90%;
-    background-color: rgb(255, 245, 230);
+    background-color: rgb(255, 230, 230);
     border: .5em solid rgb(100, 50, 50);
     border-radius: .5em;
     float: left;
