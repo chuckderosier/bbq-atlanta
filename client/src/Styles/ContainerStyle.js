@@ -26,12 +26,22 @@ export const OpenMenuStyle = styled(ClosedMenuStyle)`
 
 export const LeftStyle = styled.div`
     margin: 0;
-    /* float: left; */
+    width: 30%;
+    height: 90%;
+    background-color: rgb(255, 245, 230);
+    border: .5em solid rgb(100, 50, 50);
+    border-radius: .5em;
+    float: left;
 `
 
 export const RightStyle = styled.div`
     margin: 0;
-    /* float: right; */
+    width: 30%;
+    height: 90%;
+    background-color: rgb(255, 245, 230);
+    border: .5em solid rgb(100, 50, 50);
+    border-radius: .5em;
+    float: right;
 `
 
  export const FormContainerStyle = styled.div`
