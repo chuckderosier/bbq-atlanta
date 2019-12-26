@@ -2,7 +2,8 @@ import styled from 'styled-components'
 
 export const InvisibleBox = styled.div`
     display: flex;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
 `
@@ -28,7 +29,7 @@ export const LeftStyle = styled.div`
     margin: 0;
     width: 30%;
     height: 90%;
-    background-color: rgb(255, 230, 230);
+    background-color: rgb(255, 245, 230);
     border: .5em solid rgb(100, 50, 50);
     border-radius: .5em;
     float: left;
