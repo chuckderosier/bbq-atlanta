@@ -21,7 +21,7 @@ export const ButtonStyle = styled.div`
 
 export const HomePageButton = styled(ButtonStyle)`
     margin: 1em auto;
-    width: 40%;
+    width: 60%;
     .button-container {
         display: flex;
         justify-content: center;

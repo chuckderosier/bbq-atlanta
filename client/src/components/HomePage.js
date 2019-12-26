@@ -1,8 +1,19 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import styled from 'styled-components'
 import { ClosedMenuStyle, InvisibleBox } from '../Styles/ContainerStyle'
 import { Title, Text } from '../Styles/TextStyles'
 import { HomePageButton } from '../Styles/ButtonStyles'
+
+const PigStyle = styled.div`
+    display: flex;
+    justify-content: center;
+    img {
+        width: 70%;
+        height: auto;
+    }
+
+`
 
 class HomePage extends Component {
     render() {
@@ -22,9 +33,12 @@ class HomePage extends Component {
                     </Text>
                     <HomePageButton>
                         <div className="button-container">
-                            <Link to="/login" className='button'>Login<br />or<br />Create New Account</Link>
+                            <Link to="/login" className='button'>Login or<br />Create New Account</Link>
                         </div>
                     </HomePageButton>
+                    <PigStyle>
+                        <img src="https://i.imgur.com/3RYU61V.png" title="source: imgur.com" alt="pig" />
+                    </PigStyle>
                 </ClosedMenuStyle>
             </InvisibleBox>
         )
