@@ -34,3 +34,16 @@ export const HomePageButton = styled(ButtonStyle)`
         background-color: red;
     }
 `
+
+export const NavButtonStyle = styled.div`
+    font-family: 'Permanent Marker', cursive;
+    margin: .4em auto;
+    display: flex;
+    justify-content: space-around;
+    .button {
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 245, 230);
+        text-decoration: none;
+        padding: .2em;
+    }
+`

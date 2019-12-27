@@ -9,7 +9,7 @@ const PigStyle = styled.div`
     display: flex;
     justify-content: center;
     img {
-        width: 70%;
+        width: 80%;
         height: auto;
     }
 
