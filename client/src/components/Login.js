@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { ClosedMenuStyle, InvisibleBox } from '../Styles/ContainerStyle'
-import { Form } from '../Styles/FormStyles'
+import { FormStyle } from '../Styles/FormStyles'
 import { Title } from '../Styles/TextStyles'
 import { ButtonStyle } from '../Styles/ButtonStyles'
 import { FormContainerStyle } from '../Styles/ContainerStyle'
@@ -12,7 +12,7 @@ class Login extends Component {
             <InvisibleBox>
                 <ClosedMenuStyle>
                     <FormContainerStyle>
-                        <Form>
+                        <FormStyle>
                             <Title>
                                 <h2>Login</h2>
                             </Title>
@@ -33,13 +33,13 @@ class Login extends Component {
                             <ButtonStyle>
                                 <button className="button"><Link to="/userpage" className="button">Let's Go!!</Link></button>
                             </ButtonStyle>
-                        </Form>
+                        </FormStyle>
                     </FormContainerStyle>
                     <FormContainerStyle>
                         <Title>
                             <h2>Create New User</h2>
                         </Title>
-                        <Form>
+                        <FormStyle>
                             <p>Full Name<span className="required">* required</span></p>
                             <input
                                 type="text"
@@ -64,7 +64,7 @@ class Login extends Component {
                             <ButtonStyle>
                                 <button className="button"><Link to="/userpage" className="button">Let's Go!!</Link></button>
                             </ButtonStyle>
-                        </Form>
+                        </FormStyle>
                     </FormContainerStyle>
                 </ClosedMenuStyle>
             </InvisibleBox>

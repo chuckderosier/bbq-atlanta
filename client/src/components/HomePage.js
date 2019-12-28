@@ -5,6 +5,7 @@ import { ClosedMenuStyle, InvisibleBox } from '../Styles/ContainerStyle'
 import { Title, Text } from '../Styles/TextStyles'
 import { HomePageButton } from '../Styles/ButtonStyles'
 
+
 const PigStyle = styled.div`
     display: flex;
     justify-content: center;
