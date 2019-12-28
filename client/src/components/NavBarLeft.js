@@ -6,9 +6,9 @@ class NavBarLeft extends Component {
     render() {
         return (
             <NavButtonStyle>
-                <Link to="/userpage" className="button">Your Page</Link>
-                <Link to="/" className="button">Change Profile</Link>
+                <Link to="/" className="button">Edit Profile</Link>
                 <Link to="/" className="button">Add BBQ Joint</Link>
+                <Link to="/" className="button">Other Folks Joints</Link>
             </NavButtonStyle>
         )
     }

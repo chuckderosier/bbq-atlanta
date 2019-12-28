@@ -6,7 +6,7 @@ class NavBarRight extends Component {
     render() {
         return (
                 <NavButtonStyle>
-                    <Link to="/otheruserspage" className="button">Other people's BBQ Joints</Link>
+                    <Link to="/userpage" className="button">Back to your page</Link>
                     <Link to="/" className="button">Logout</Link>
                 </NavButtonStyle>
         )
