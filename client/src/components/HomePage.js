@@ -4,12 +4,12 @@ import styled from 'styled-components'
 import { ClosedMenuStyle, InvisibleBox } from '../Styles/ContainerStyle'
 import { Title, Text } from '../Styles/TextStyles'
 import { HomePageButton } from '../Styles/ButtonStyles'
-import MenuTemplate from './MenuTemplate'
+// import MenuTemplate from './MenuTemplate'
 
-const PageContentsStyle = styled.div`
-    position: relative;
-    z-index: 5;
-`
+// const PageContentsStyle = styled.div`
+//     position: relative;
+//     z-index: 5;
+// `
 
 const PigStyle = styled.div`
     display: flex;
@@ -23,8 +23,8 @@ const PigStyle = styled.div`
 class HomePage extends Component {
     render() {
         return (
-            <MenuTemplate>
-                <PageContentsStyle>
+            <InvisibleBox>
+                <ClosedMenuStyle>
                     <Title>
                         <h1>BBQ Atlanta</h1>
                         <h3>Share and Rate BBQ Restaurants in Atlanta</h3>
@@ -44,8 +44,8 @@ class HomePage extends Component {
                     <PigStyle>
                         <img src="https://i.imgur.com/3RYU61V.png" title="source: imgur.com" alt="pig" />
                     </PigStyle>
-                </PageContentsStyle>
-            </MenuTemplate>
+                </ClosedMenuStyle>
+            </InvisibleBox>
         )
     }
 }
