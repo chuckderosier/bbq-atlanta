@@ -19,7 +19,16 @@ const fatMatts = new Restaurant({
     restaurantLocation: "Memorial Drive",
     restaurantPhone: "404-123-4567",
     restaurantHours: "tbd",
-    restaurantMain: ["Pulled Pork", "Spare Ribs"],
-    restaurantSide: ["Fried Okra", "Collard Greens"],
+    restaurantMain: ["Pulled Pork"],
+    restaurantSide: ["Fried Okra"],
     restaurantDessert: ["Banana Pudding"]
+})
+
+const fatMattsMain = new Main({
+    mainName: "Pulled Pork",
+    mainSmokeRating: 4,
+    mainCoating: "Kansas Sauce On Side",
+    coatingRating: 4,
+    mainRating: 4,
+    mainNotes: "Consistent"
 })
