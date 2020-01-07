@@ -5,7 +5,6 @@ const User = new Schema({
     userName: String,
     userEmail: String,
     password: "password",
-    userLoggedIn: Boolean,
     bbqStyle: [],
     restaurants: [{
         type: Schema.Types.ObjectId,
