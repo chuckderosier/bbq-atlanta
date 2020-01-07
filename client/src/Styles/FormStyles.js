@@ -9,9 +9,6 @@ export const FormStyle = styled.div`
         height: 1.5em;
         font-size: 1em;
     }
-    button {
-        padding: 1em;
-    }
     h2 {
         margin: 0;
     }

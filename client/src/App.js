@@ -16,12 +16,12 @@ class App extends Component {
       <BackgroundImage>
         <Router>
           <Switch>
-            <Route exact path='userpage/:userId/restaurant/:restaurantId/desserts' component={DessertsPage} />
-            <Route exact path='userpage/:userId/restaurant/:restaurantId/sides' component={SidesPage} />
-            <Route exact path='userpage/:userId/restaurant/:restaurantId/mains' component={MainsPage} />
-            <Route exact path='/userpage/:userId/restaurant' component={RestaurantPage} />
+            <Route exact path='user/:userId/restaurant/:restaurantId/desserts' component={DessertsPage} />
+            <Route exact path='user/:userId/restaurant/:restaurantId/sides' component={SidesPage} />
+            <Route exact path='user/:userId/restaurant/:restaurantId/mains' component={MainsPage} />
+            <Route exact path='/user/:userId/restaurant' component={RestaurantPage} />
             <Route exact path='/otheruserspage' component={OtherUsersPage} />
-            <Route exact path='/userpage' component={UserPage} />
+            <Route exact path='/user' component={UserPage} />
             <Route exact path='/login' component={Login} />
             <Route path='/' component={HomePage} />
           </Switch>

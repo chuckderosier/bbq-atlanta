@@ -21,6 +21,7 @@ class Login extends Component {
                                 type="email"
                                 placeholder="Email"
                                 name="userEmail"
+                                className="input"
                                 required
                             />
                             <p>Password<span className="required">* required</span></p>
@@ -31,7 +32,7 @@ class Login extends Component {
                                 required
                             />
                             <ButtonStyle>
-                                <button className="button"><Link to="/userpage" className="button">Let's Go!!</Link></button>
+                                <button className="button"><Link to="/user" className="button">Let's Go!!</Link></button>
                             </ButtonStyle>
                         </FormStyle>
                     </FormContainerStyle>
@@ -62,7 +63,7 @@ class Login extends Component {
                                 required
                             />
                             <ButtonStyle>
-                                <button className="button"><Link to="/userpage" className="button">Let's Go!!</Link></button>
+                                <button className="button"><Link to="/user" className="button">Let's Go!!</Link></button>
                             </ButtonStyle>
                         </FormStyle>
                     </FormContainerStyle>
