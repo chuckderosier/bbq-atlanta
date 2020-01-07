@@ -13,7 +13,7 @@ class App extends Component {
       <BackgroundImage>
         <Router>
           <Switch>
-            <Route exact path='/user/restaurant' component={RestaurantPage} />
+            <Route exact path='/userpage/:userId/restaurant' component={RestaurantPage} />
             <Route exact path='/otheruserspage' component={OtherUsersPage} />
             <Route exact path='/userpage' component={UserPage} />
             <Route exact path='/login' component={Login} />
