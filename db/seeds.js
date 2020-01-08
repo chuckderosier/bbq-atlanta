@@ -32,3 +32,24 @@ const fatMattsMain = new Main({
     mainRating: 4,
     mainNotes: "Consistent"
 })
+
+const fatMattsSide = new Side({
+    sideName: "Collards",
+    sideRating: 4,
+    sideNotes: "Tasty"
+})
+
+const fatMattsDessert = new Dessert({
+    dessertName: "Banana Puddin",
+    dessertRating: 5,
+    dessertNotes: "Not always available"
+})
+
+User.remove({})
+    .then(() => Restaurant.remove({}))
+    .then(() => chuckD.save())
+    .then(() => fatMatts.save())
+    .then(() => fatMattsMain.save())
+    .then(() => fatMattsSide.save())
+    .then(() => fatMattsDessert.save())
+    .then(() => mongoose.connection.close())
