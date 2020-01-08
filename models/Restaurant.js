@@ -5,6 +5,7 @@ const Restaurant = new Schema({
     restaurantName: String,
     restaurantRating: Number,
     restaurantSauce: [],
+    restaurantSauceRating: Number,
     restaurantLocation: String,
     restaurantPhone: String,
     restaurantHours: String,

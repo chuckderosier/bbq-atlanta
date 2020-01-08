@@ -62,6 +62,12 @@ class Login extends Component {
                                 name="password"
                                 required
                             />
+                            <div>
+                                <input type="checkbox" name="Sauce1" value="Generic"/>Generic
+                                <input type="checkbox" name="Sauce2" value="South Carolina"/>South Carolina
+                                <input type="checkbox" name="Sauce3" value="East North Carolina"/>East North Carolina
+                                <input type="checkbox" name="Sauce3" value="West North Carolina"/>West North Carolina
+                            </div>
                             <ButtonStyle>
                                 <button className="button"><Link to="/user" className="button">Let's Go!!</Link></button>
                             </ButtonStyle>

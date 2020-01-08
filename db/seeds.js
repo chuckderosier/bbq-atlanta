@@ -16,6 +16,7 @@ const fatMatts = new Restaurant({
     restaurantName: "Fat Matts",
     restaurantRating: 5,
     restaurantSauce: ["Kansas"],
+    restaurantSauceRating: 4,
     restaurantLocation: "Memorial Drive",
     restaurantPhone: "404-123-4567",
     restaurantHours: "tbd",
