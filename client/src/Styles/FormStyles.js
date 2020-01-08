@@ -16,10 +16,10 @@ export const FormStyle = styled.div`
         margin: 0;
     }
     p {
-        margin: .8em .1em .2em .1em;
+        margin: 0 .1em .2em .1em;
     }
     .required {
-        margin: .8em .1em .2em .1em;
+        margin: 0 .1em .2em .1em;
         font-size: .6em;
         color: red;
         float: right;

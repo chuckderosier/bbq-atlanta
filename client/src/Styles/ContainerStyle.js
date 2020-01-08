@@ -14,8 +14,8 @@ export const ClosedMenuStyle = styled.div`
     justify-self: center;
     align-self: center;
     margin: 0 auto;
-    width: 30%;
-    height: 90%;
+    width: 40%;
+    height: 95%;
     background-color: rgb(255, 245, 230);
     border: .5em solid rgb(100, 50, 50);
     border-radius: .5em;
@@ -48,4 +48,9 @@ export const RightStyle = styled.div`
  export const FormContainerStyle = styled.div`
     margin: 0 auto;
     width: 90%;
+`
+
+export const CheckBoxStyle = styled.div`
+    display: flex;
+    flex-direction: row;
 `

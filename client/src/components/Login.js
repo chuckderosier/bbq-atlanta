@@ -1,17 +1,24 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import { ClosedMenuStyle, InvisibleBox } from '../Styles/ContainerStyle'
+import styled from 'styled-components'
+import { ClosedMenuStyle, InvisibleBox, CheckBoxStyle } from '../Styles/ContainerStyle'
 import { FormStyle } from '../Styles/FormStyles'
 import { Title } from '../Styles/TextStyles'
 import { ButtonStyle } from '../Styles/ButtonStyles'
 import { FormContainerStyle } from '../Styles/ContainerStyle'
+
+const LogInStyle = styled.div`
+    margin: 0 auto;
+    width: 90%;
+    /* height: 25%; */
+`
 
 class Login extends Component {
     render() {
         return (
             <InvisibleBox>
                 <ClosedMenuStyle>
-                    <FormContainerStyle>
+                    <LogInStyle>
                         <FormStyle>
                             <Title>
                                 <h2>Login</h2>
@@ -35,7 +42,7 @@ class Login extends Component {
                                 <button className="button"><Link to="/user" className="button">Let's Go!!</Link></button>
                             </ButtonStyle>
                         </FormStyle>
-                    </FormContainerStyle>
+                    </LogInStyle>
                     <FormContainerStyle>
                         <Title>
                             <h2>Create New User</h2>
@@ -62,12 +69,12 @@ class Login extends Component {
                                 name="password"
                                 required
                             />
-                            <div>
+                            <CheckBoxStyle>
                                 <input type="checkbox" name="Sauce1" value="Generic"/>Generic
                                 <input type="checkbox" name="Sauce2" value="South Carolina"/>South Carolina
                                 <input type="checkbox" name="Sauce3" value="East North Carolina"/>East North Carolina
                                 <input type="checkbox" name="Sauce3" value="West North Carolina"/>West North Carolina
-                            </div>
+                            </CheckBoxStyle>
                             <ButtonStyle>
                                 <button className="button"><Link to="/user" className="button">Let's Go!!</Link></button>
                             </ButtonStyle>
