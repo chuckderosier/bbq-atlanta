@@ -14,7 +14,7 @@ export const ClosedMenuStyle = styled.div`
     justify-self: center;
     align-self: center;
     margin: 0 auto;
-    width: 40%;
+    width: 33%;
     height: 95%;
     background-color: rgb(255, 245, 230);
     border: .5em solid rgb(100, 50, 50);
