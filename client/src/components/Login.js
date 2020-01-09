@@ -70,10 +70,14 @@ class Login extends Component {
                                 required
                             />
                             <CheckBoxStyle>
-                                <input type="checkbox" name="Sauce1" value="Generic"/>Generic
-                                <input type="checkbox" name="Sauce2" value="South Carolina"/>South Carolina
-                                <input type="checkbox" name="Sauce3" value="East North Carolina"/>East North Carolina
-                                <input type="checkbox" name="Sauce3" value="West North Carolina"/>West North Carolina
+                                    <input type="checkbox" name="Sauce1" id="generic" value="Generic" />
+                                    <label for="generic" className="label">Generic</label>
+                                    <input type="checkbox" name="Sauce2" id="sc" value="South Carolina" />
+                                    <label for="sc">South Carolina</label>
+                                    <input type="checkbox" name="Sauce3" id="enc" value="East North Carolina" />
+                                    <label for="enc">East North Carolina</label>
+                                    <input type="checkbox" name="Sauce3" id="wnc" value="West North Carolina" />
+                                    <label for="wnc">West North Carolina</label>
                             </CheckBoxStyle>
                             <ButtonStyle>
                                 <button className="button"><Link to="/user" className="button">Let's Go!!</Link></button>
