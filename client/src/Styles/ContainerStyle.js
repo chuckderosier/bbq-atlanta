@@ -52,8 +52,6 @@ export const RightStyle = styled.div`
 
 export const CheckBoxStyle = styled.div`
     display: flex;
-    flex-direction: row;
-    align-content: space-between;
     .label {
         margin: 0;
     }
