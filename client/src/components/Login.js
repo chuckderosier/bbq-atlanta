@@ -70,7 +70,7 @@ class Login extends Component {
                                 required
                             />
                             <CheckBoxStyle>
-                                <div>
+                                <div className="checkbox-container">
                                     <label for="generic" className="label">
                                         <input type="checkbox" name="Sauce1" id="generic" value="Generic" />Generic
                                     </label>
@@ -78,7 +78,7 @@ class Login extends Component {
                                         <input type="checkbox" name="allSauce" id="allStyles" value="All Styles" />All kinds
                                     </label>
                                 </div>
-                                <div>
+                                <div className="checkbox-container">
                                     <label for="sc">South Carolina
                                         <input type="checkbox" name="Sauce2" id="sc" value="South Carolina" />
                                     </label>

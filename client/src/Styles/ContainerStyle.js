@@ -52,9 +52,6 @@ export const RightStyle = styled.div`
 
 export const CheckBoxStyle = styled.div`
     display: flex;
-    .label {
-        margin: 0;
-    }
     input {
         margin: 0;
     }

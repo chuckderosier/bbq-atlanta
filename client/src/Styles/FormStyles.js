@@ -24,4 +24,14 @@ export const FormStyle = styled.div`
         color: red;
         float: right;
     }
+    .checkbox-container {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        /* position: relative; */
+        input {
+            /* position: relative; */
+            margin: 0 0 0 .2em;
+        }
+    }
 `
