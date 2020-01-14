@@ -6,6 +6,7 @@ import { FormStyle } from '../Styles/FormStyles'
 import { Title } from '../Styles/TextStyles'
 import { ButtonStyle } from '../Styles/ButtonStyles'
 import { FormContainerStyle } from '../Styles/ContainerStyle'
+import { QuestionMark } from '../Styles/QuestionMarkStyle'
 
 const LogInStyle = styled.div`
     margin: 0 auto;
@@ -74,14 +75,18 @@ class Login extends Component {
                                     <div className="each-checkbox">
                                         <label for="generic" className="label">
                                             <input type="checkbox" name="Sauce1" id="generic" value="Generic" />Generic
-                                            <div className="question-mark">?</div>
+                                            <QuestionMark>?
+                                                <span class="sauce-description">butt</span>
+                                            </QuestionMark>
                                         </label>
                                     </div>
                                     <div className="each-checkbox">
                                         <label for="allStyles" className="label">
                                             <input type="checkbox" name="allSauce" id="allStyles" value="All Styles" />All kinds
                                         </label>
-                                        <div className="question-mark">?</div>
+                                        <div className="question-mark">?
+                                            
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="checkbox-container">
