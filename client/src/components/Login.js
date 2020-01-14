@@ -71,23 +71,38 @@ class Login extends Component {
                             />
                             <CheckBoxStyle>
                                 <div className="checkbox-container">
-                                    <label for="generic" className="label">
-                                        <input type="checkbox" name="Sauce1" id="generic" value="Generic" />Generic
-                                    </label>
-                                    <label for="allStyles" className="label">
-                                        <input type="checkbox" name="allSauce" id="allStyles" value="All Styles" />All kinds
-                                    </label>
+                                    <div className="each-checkbox">
+                                        <label for="generic" className="label">
+                                            <input type="checkbox" name="Sauce1" id="generic" value="Generic" />Generic
+                                            <div className="question-mark">?</div>
+                                        </label>
+                                    </div>
+                                    <div className="each-checkbox">
+                                        <label for="allStyles" className="label">
+                                            <input type="checkbox" name="allSauce" id="allStyles" value="All Styles" />All kinds
+                                        </label>
+                                        <div className="question-mark">?</div>
+                                    </div>
                                 </div>
                                 <div className="checkbox-container">
-                                    <label for="sc">South Carolina
-                                        <input type="checkbox" name="Sauce2" id="sc" value="South Carolina" />
-                                    </label>
-                                    <label for="enc">East North Carolina
-                                        <input type="checkbox" name="Sauce3" id="enc" value="East North Carolina" />
-                                    </label>
-                                    <label for="wnc">West North Carolina
-                                        <input type="checkbox" name="Sauce3" id="wnc" value="West North Carolina" />
-                                    </label>
+                                    <div className="each-checkbox">
+                                        <label for="sc">South Carolina
+                                            <input type="checkbox" name="Sauce2" id="sc" value="South Carolina" />
+                                        </label>
+                                        <div className="question-mark">?</div>
+                                    </div>
+                                    <div className="each-checkbox">
+                                        <label for="enc">East North Carolina
+                                            <input type="checkbox" name="Sauce3" id="enc" value="East North Carolina" />
+                                        </label>
+                                        <div className="question-mark">?</div>
+                                    </div>
+                                    <div className="each-checkbox">
+                                        <label for="wnc">West North Carolina
+                                            <input type="checkbox" name="Sauce3" id="wnc" value="West North Carolina" />
+                                        </label>
+                                        <div className="question-mark">?</div>
+                                    </div>
                                 </div>
                             </CheckBoxStyle>
                             <ButtonStyle>
