@@ -11,8 +11,8 @@ export const QuestionMark = styled.div`
         position: relative;
         display: inline-block;
         z-index: 1;
-        width: 100%;
-        height: 100%;
+        width: 1.2em;
+        height: 1.2em;
     }
     .to-show .item-description {
         margin: 0;
