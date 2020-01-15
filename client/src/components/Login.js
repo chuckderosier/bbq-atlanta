@@ -76,7 +76,9 @@ class Login extends Component {
                                         <label for="generic" className="label">
                                             <input type="checkbox" name="Sauce1" id="generic" value="Generic" />Generic
                                             <QuestionMark>?
-                                                <span class="sauce-description">butt</span>
+                                                <div className="to-show">
+                                                    <p class="sauce-description">butt munching boob</p>
+                                                </div>
                                             </QuestionMark>
                                         </label>
                                     </div>
@@ -85,7 +87,7 @@ class Login extends Component {
                                             <input type="checkbox" name="allSauce" id="allStyles" value="All Styles" />All kinds
                                         </label>
                                         <div className="question-mark">?
-                                            
+
                                         </div>
                                     </div>
                                 </div>
