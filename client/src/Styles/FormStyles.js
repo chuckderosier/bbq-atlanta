@@ -29,7 +29,13 @@ export const FormStyle = styled.div`
         display: flex;
         flex-direction: column;
         input {
+            display: inline-block;
             margin: 0 0 0 .2em;
+        }
+        .each-checkbox {
+            margin: 0;
+            display: flex;
+            flex-direction: start;
         }
     }
 `

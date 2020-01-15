@@ -1,22 +1,21 @@
 import styled from 'styled-components'
 
 export const QuestionMark = styled.div`
-    margin: 0 auto;
-    position: absolute;
-    display: inline-block;
     margin: 0 0 0 .2em;
-    background-color: gray;
+    background-color: rgba(150, 150, 150, .8);
     width: 1.2em;
     height: 1.2em;
     border-radius: 100%;
     text-align: center;
     .to-show {
-        position: absolute;
+        position: relative;
         display: inline-block;
+        z-index: 1;
         width: 100%;
         height: 100%;
     }
-    .to-show .sauce-description {
+    .to-show .item-description {
+        margin: 0;
         visibility: hidden;
         width: auto;
         height: auto;
@@ -28,7 +27,7 @@ export const QuestionMark = styled.div`
         position: absolute;
         z-index: 1;
     }
-    .to-show:hover .sauce-description {
+    .to-show:hover .item-description {
         visibility: visible;
     }
 `   

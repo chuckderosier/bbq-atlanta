@@ -72,15 +72,15 @@ class Login extends Component {
                             />
                             <CheckBoxStyle>
                                 <div className="checkbox-container">
-                                    <div className="each-checkbox">
-                                        <label for="generic" className="label">
-                                            <input type="checkbox" name="Sauce1" id="generic" value="Generic" />Generic
-                                            <QuestionMark>?
-                                                <div className="to-show">
-                                                    <p class="sauce-description">butt munching boob</p>
+                                    <div className="each-checkbox">Generic
+                                        {/* <label for="generic" className="label"> */}
+                                            <input type="checkbox" name="Sauce1" id="generic" value="Generic" />
+                                            <QuestionMark>
+                                                <div className="to-show">?
+                                                    <p class="item-description">butt munching boob</p>
                                                 </div>
                                             </QuestionMark>
-                                        </label>
+                                        {/* </label> */}
                                     </div>
                                     <div className="each-checkbox">
                                         <label for="allStyles" className="label">
