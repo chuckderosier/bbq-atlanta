@@ -76,14 +76,12 @@ class Login extends Component {
                                         <input type="checkbox" name="Sauce1" id="generic" value="Generic" />Generic
                                         <QuestionMark>
                                             <div className="to-show">?
-                                                <p class="item-description">butt munching boob</p>
+                                                <p className="item-description">butt munching boob</p>
                                             </div>
                                         </QuestionMark>
                                     </div>
                                     <div className="each-checkbox">
-                                        <label for="allStyles" className="label">
                                             <input type="checkbox" name="allSauce" id="allStyles" value="All Styles" />All kinds
-                                        </label>
                                         <div className="question-mark">?
 
                                         </div>
@@ -91,21 +89,15 @@ class Login extends Component {
                                 </div>
                                 <div className="checkbox-container">
                                     <div className="each-checkbox">
-                                        <label for="sc">South Carolina
-                                            <input type="checkbox" name="Sauce2" id="sc" value="South Carolina" />
-                                        </label>
+                                            <input type="checkbox" name="Sauce2" id="sc" value="South Carolina" />South Carolina
                                         <div className="question-mark">?</div>
                                     </div>
                                     <div className="each-checkbox">
-                                        <label for="enc">East North Carolina
-                                            <input type="checkbox" name="Sauce3" id="enc" value="East North Carolina" />
-                                        </label>
+                                            <input type="checkbox" name="Sauce3" id="enc" value="East North Carolina" />East North Carolina
                                         <div className="question-mark">?</div>
                                     </div>
                                     <div className="each-checkbox">
-                                        <label for="wnc">West North Carolina
-                                            <input type="checkbox" name="Sauce3" id="wnc" value="West North Carolina" />
-                                        </label>
+                                            <input type="checkbox" name="Sauce3" id="wnc" value="West North Carolina" />West North Carolina
                                         <div className="question-mark">?</div>
                                     </div>
                                 </div>

@@ -29,8 +29,8 @@ export const FormStyle = styled.div`
         display: flex;
         flex-direction: column;
         input {
-            display: inline-block;
-            margin: 0 0 0 .2em;
+            /* display: inline; */
+            margin: 0;
         }
         .each-checkbox {
             margin: 0;
