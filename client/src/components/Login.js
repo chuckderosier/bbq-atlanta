@@ -130,7 +130,7 @@ class Login extends Component {
                                     </div>
                                     <div className="each-checkbox">
                                         <p>Other</p>
-                                        <input type="text" name="otherSauce" id="otherSauce" value="" />
+                                        <input type="text" name="otherSauce" id="otherSauce" />
                                     </div>
                                 </div>
                             </CheckBoxStyle>

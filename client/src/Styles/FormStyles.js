@@ -5,6 +5,7 @@ export const FormStyle = styled.div`
     flex-direction: column;
     align-content: center;
     input {
+        margin: 0 auto .2em 0;
         width: 100%;
         height: 1.5em;
         font-size: 1em;
@@ -19,26 +20,21 @@ export const FormStyle = styled.div`
         margin: 0 .1em .2em .1em;
     }
     .required {
-        margin: 0 .1em .2em .1em;
-        font-size: .6em;
+        /* margin: 0 .1em 0 .1em; */
+        font-size: .8em;
         color: red;
         float: right;
     }
     .checkbox-container {
         width: 50%;
-        margin: .2em;
+        margin: .6em 0 0 0;
         display: flex;
         flex-direction: column;
-        input {
-            /* display: inline; */
-            margin: 0;
-        }
         .each-checkbox {
-            clear: right;
-            float: none;
             margin: 0;
             display: flex;
-            flex-direction: start;
+            flex-direction: row;
+            justify-content: space-around;
         }
     }
 `

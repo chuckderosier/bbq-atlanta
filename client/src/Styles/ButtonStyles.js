@@ -44,6 +44,5 @@ export const NavButtonStyle = styled.div`
         color: rgb(0, 0, 0);
         background-color: rgb(255, 245, 230);
         text-decoration: none;
-        padding: .2em;
     }
 `
