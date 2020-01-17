@@ -73,32 +73,61 @@ class Login extends Component {
                             <CheckBoxStyle>
                                 <div className="checkbox-container">
                                     <div className="each-checkbox">
-                                        <input type="checkbox" name="Sauce1" id="generic" value="Generic" />Generic
                                         <QuestionMark>
                                             <div className="to-show">?
                                                 <p className="item-description">butt munching boob</p>
                                             </div>
                                         </QuestionMark>
+                                        <p>Traditional</p>
+                                        <input type="checkbox" name="Sauce1" id="generic" value="Generic" />
+
                                     </div>
                                     <div className="each-checkbox">
-                                            <input type="checkbox" name="allSauce" id="allStyles" value="All Styles" />All kinds
-                                        <div className="question-mark">?
-
-                                        </div>
+                                        <QuestionMark>
+                                            <div className="to-show">?
+                                                <p className="item-description">butt munching boob</p>
+                                            </div>
+                                        </QuestionMark>
+                                        <p>Hot</p>
+                                        <input type="checkbox" name="allSauce" id="allStyles" value="All Styles" />
+                                    </div>
+                                    <div className="each-checkbox">
+                                        <QuestionMark>
+                                            <div className="to-show">?
+                                                <p className="item-description">butt munching boob</p>
+                                            </div>
+                                        </QuestionMark>
+                                        <p>Mild</p>
+                                        <input type="checkbox" name="allSauce" id="allStyles" value="All Styles" />
                                     </div>
                                 </div>
                                 <div className="checkbox-container">
                                     <div className="each-checkbox">
-                                            <input type="checkbox" name="Sauce2" id="sc" value="South Carolina" />South Carolina
-                                        <div className="question-mark">?</div>
+                                        <QuestionMark>
+                                            <div className="to-show">?
+                                                <p className="item-description">butt munching boob</p>
+                                            </div>
+                                        </QuestionMark>
+                                        <p>Traditional</p>
+                                        <input type="checkbox" name="Sauce2" id="sc" value="South Carolina" />
                                     </div>
                                     <div className="each-checkbox">
-                                            <input type="checkbox" name="Sauce3" id="enc" value="East North Carolina" />East North Carolina
-                                        <div className="question-mark">?</div>
+                                        <QuestionMark>
+                                            <div className="to-show">?
+                                                <p className="item-description">butt munching boob</p>
+                                            </div>
+                                        </QuestionMark>
+                                        <p>Traditional</p>
+                                        <input type="checkbox" name="Sauce3" id="enc" value="East North Carolina" />
                                     </div>
                                     <div className="each-checkbox">
-                                            <input type="checkbox" name="Sauce3" id="wnc" value="West North Carolina" />West North Carolina
-                                        <div className="question-mark">?</div>
+                                        <QuestionMark>
+                                            <div className="to-show">?
+                                                <p className="item-description">butt munching boob</p>
+                                            </div>
+                                        </QuestionMark>
+                                        <p>Traditional</p>
+                                        <input type="checkbox" name="Sauce3" id="wnc" value="West North Carolina" />
                                     </div>
                                 </div>
                             </CheckBoxStyle>
