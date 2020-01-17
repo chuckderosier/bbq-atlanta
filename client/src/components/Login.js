@@ -79,8 +79,7 @@ class Login extends Component {
                                             </div>
                                         </QuestionMark>
                                         <p>Traditional</p>
-                                        <input type="checkbox" name="Sauce1" id="generic" value="Generic" />
-
+                                        <input type="checkbox" name="traditional" id="traditional" value="Traditional" />
                                     </div>
                                     <div className="each-checkbox">
                                         <QuestionMark>
@@ -88,8 +87,8 @@ class Login extends Component {
                                                 <p className="item-description">butt munching boob</p>
                                             </div>
                                         </QuestionMark>
-                                        <p>Hot</p>
-                                        <input type="checkbox" name="allSauce" id="allStyles" value="All Styles" />
+                                        <p>Dry Rub</p>
+                                        <input type="checkbox" name="dryRob" id="dryRub" value="Dry Rub" />
                                     </div>
                                     <div className="each-checkbox">
                                         <QuestionMark>
@@ -97,8 +96,17 @@ class Login extends Component {
                                                 <p className="item-description">butt munching boob</p>
                                             </div>
                                         </QuestionMark>
-                                        <p>Mild</p>
-                                        <input type="checkbox" name="allSauce" id="allStyles" value="All Styles" />
+                                        <p>Hot Sauces</p>
+                                        <input type="checkbox" name="hot" id="hot" value="Hot Sauces" />
+                                    </div>
+                                    <div className="each-checkbox">
+                                        <QuestionMark>
+                                            <div className="to-show">?
+                                                <p className="item-description">butt munching boob</p>
+                                            </div>
+                                        </QuestionMark>
+                                        <p>Mild Sauces</p>
+                                        <input type="checkbox" name="mild" id="mild" value="Mild Sauces" />
                                     </div>
                                 </div>
                                 <div className="checkbox-container">
@@ -108,8 +116,8 @@ class Login extends Component {
                                                 <p className="item-description">butt munching boob</p>
                                             </div>
                                         </QuestionMark>
-                                        <p>Traditional</p>
-                                        <input type="checkbox" name="Sauce2" id="sc" value="South Carolina" />
+                                        <p>Mustard Based</p>
+                                        <input type="checkbox" name="mustard" id="mustard" value="Mustard Based" />
                                     </div>
                                     <div className="each-checkbox">
                                         <QuestionMark>
@@ -117,17 +125,12 @@ class Login extends Component {
                                                 <p className="item-description">butt munching boob</p>
                                             </div>
                                         </QuestionMark>
-                                        <p>Traditional</p>
-                                        <input type="checkbox" name="Sauce3" id="enc" value="East North Carolina" />
+                                        <p>Vinegar Based</p>
+                                        <input type="checkbox" name="vinegar" id="vinegar" value="Vinegar Based" />
                                     </div>
                                     <div className="each-checkbox">
-                                        <QuestionMark>
-                                            <div className="to-show">?
-                                                <p className="item-description">butt munching boob</p>
-                                            </div>
-                                        </QuestionMark>
-                                        <p>Traditional</p>
-                                        <input type="checkbox" name="Sauce3" id="wnc" value="West North Carolina" />
+                                        <p>Other</p>
+                                        <input type="text" name="otherSauce" id="otherSauce" value="" />
                                     </div>
                                 </div>
                             </CheckBoxStyle>

@@ -26,7 +26,7 @@ export const FormStyle = styled.div`
     }
     .checkbox-container {
         width: 50%;
-        padding: .2em;
+        margin: .2em;
         display: flex;
         flex-direction: column;
         input {
