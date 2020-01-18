@@ -79,7 +79,13 @@ class Login extends Component {
                                             </div>
                                         </QuestionMark>
                                         <p>Traditional</p>
-                                        <input type="checkbox" name="traditional" id="traditional" value="Traditional" />
+                                        <input
+                                            type="checkbox"
+                                            name="traditional"
+                                            id="traditional"
+                                            className="input"
+                                            value="Traditional"
+                                        />
                                     </div>
                                     <div className="each-checkbox">
                                         <QuestionMark>
@@ -88,7 +94,13 @@ class Login extends Component {
                                             </div>
                                         </QuestionMark>
                                         <p>Dry Rub</p>
-                                        <input type="checkbox" name="dryRob" id="dryRub" value="Dry Rub" />
+                                        <input
+                                            type="checkbox"
+                                            name="dryRob"
+                                            id="dryRub"
+                                            className="input"
+                                            value="Dry Rub"
+                                        />
                                     </div>
                                     <div className="each-checkbox">
                                         <QuestionMark>
@@ -97,7 +109,13 @@ class Login extends Component {
                                             </div>
                                         </QuestionMark>
                                         <p>Hot Sauces</p>
-                                        <input type="checkbox" name="hot" id="hot" value="Hot Sauces" />
+                                        <input
+                                            type="checkbox"
+                                            name="hot"
+                                            id="hot"
+                                            className="input"
+                                            value="Hot Sauces"
+                                        />
                                     </div>
                                     <div className="each-checkbox">
                                         <QuestionMark>
@@ -106,7 +124,13 @@ class Login extends Component {
                                             </div>
                                         </QuestionMark>
                                         <p>Mild Sauces</p>
-                                        <input type="checkbox" name="mild" id="mild" value="Mild Sauces" />
+                                        <input
+                                            type="checkbox"
+                                            name="mild"
+                                            id="mild"
+                                            className="input"
+                                            value="Mild Sauces"
+                                        />
                                     </div>
                                 </div>
                                 <div className="checkbox-container">
@@ -117,7 +141,13 @@ class Login extends Component {
                                             </div>
                                         </QuestionMark>
                                         <p>Mustard Based</p>
-                                        <input type="checkbox" name="mustard" id="mustard" value="Mustard Based" />
+                                        <input
+                                            type="checkbox"
+                                            name="mustard"
+                                            id="mustard"
+                                            className="input"
+                                            value="Mustard Based"
+                                        />
                                     </div>
                                     <div className="each-checkbox">
                                         <QuestionMark>
@@ -126,7 +156,13 @@ class Login extends Component {
                                             </div>
                                         </QuestionMark>
                                         <p>Vinegar Based</p>
-                                        <input type="checkbox" name="vinegar" id="vinegar" value="Vinegar Based" />
+                                        <input
+                                            type="checkbox"
+                                            name="vinegar"
+                                            id="vinegar"
+                                            className="input"
+                                            value="Vinegar Based"
+                                        />
                                     </div>
                                     <div className="each-checkbox">
                                         <p>Other</p>

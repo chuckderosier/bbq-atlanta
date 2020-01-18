@@ -34,7 +34,11 @@ export const FormStyle = styled.div`
             margin: 0;
             display: flex;
             flex-direction: row;
-            justify-content: space-around;
+            align-content: center;
+        }
+        .input {
+            width: 1em;
+            margin: 0 0 0 .2em;
         }
     }
 `
