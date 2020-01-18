@@ -17,13 +17,13 @@ export const QuestionMark = styled.div`
     .to-show .item-description {
         margin: 0;
         visibility: hidden;
-        width: auto;
+        width: 10em;
         height: auto;
         color: white;
         text-align: center;
         background-color: rgba(0, 0, 0, .8);
         border-radius: 10%;
-        padding: .2em;
+        padding: .6em;
         position: absolute;
         z-index: 1;
     }

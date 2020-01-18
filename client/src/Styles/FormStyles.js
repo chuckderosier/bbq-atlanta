@@ -39,6 +39,8 @@ export const FormStyle = styled.div`
         .input {
             width: 1em;
             margin: 0 0 0 .2em;
+            background-color: pink;
+            border: solid black 2px;
         }
     }
 `

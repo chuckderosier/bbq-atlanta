@@ -11,7 +11,6 @@ import { QuestionMark } from '../Styles/QuestionMarkStyle'
 const LogInStyle = styled.div`
     margin: 0 auto;
     width: 90%;
-    /* height: 25%; */
 `
 
 class Login extends Component {
@@ -75,7 +74,13 @@ class Login extends Component {
                                     <div className="each-checkbox">
                                         <QuestionMark>
                                             <div className="to-show">?
-                                                <p className="item-description">butt munching boob</p>
+                                                <p className="item-description">
+                                                    AKA Kansas City Style Sauce:<br/>
+                                                    Tomato / Ketchup base<br/>
+                                                    Brown Sugar / Molasses<br/>
+                                                    Cider Vinegar<br/>
+                                                    Various Spices
+                                                </p>
                                             </div>
                                         </QuestionMark>
                                         <p>Traditional</p>
@@ -90,7 +95,14 @@ class Login extends Component {
                                     <div className="each-checkbox">
                                         <QuestionMark>
                                             <div className="to-show">?
-                                                <p className="item-description">butt munching boob</p>
+                                                <p className="item-description">
+                                                    Spices in various amounts<br/>
+                                                    depending on which style:<br/>
+                                                    Cayenne Pepper<br/>
+                                                    Black Pepper / Salt<br/>
+                                                    Paprika<br/>
+                                                    Garlic / Onion Powder<br/>
+                                                </p>
                                             </div>
                                         </QuestionMark>
                                         <p>Dry Rub</p>
@@ -105,7 +117,7 @@ class Login extends Component {
                                     <div className="each-checkbox">
                                         <QuestionMark>
                                             <div className="to-show">?
-                                                <p className="item-description">butt munching boob</p>
+                                                <p className="item-description">Spicy</p>
                                             </div>
                                         </QuestionMark>
                                         <p>Hot Sauces</p>
@@ -120,7 +132,7 @@ class Login extends Component {
                                     <div className="each-checkbox">
                                         <QuestionMark>
                                             <div className="to-show">?
-                                                <p className="item-description">butt munching boob</p>
+                                                <p className="item-description">I like my taste buds intact</p>
                                             </div>
                                         </QuestionMark>
                                         <p>Mild Sauces</p>
@@ -137,7 +149,14 @@ class Login extends Component {
                                     <div className="each-checkbox">
                                         <QuestionMark>
                                             <div className="to-show">?
-                                                <p className="item-description">butt munching boob</p>
+                                                <p className="item-description">
+                                                    AKA  South Carolina Style:<br />
+                                                    Yellow Mustard<br />
+                                                    Honey<br />
+                                                    Apple Cider Vinegar<br />
+                                                    Ketchup<br />
+                                                    Various Spices
+                                                </p>
                                             </div>
                                         </QuestionMark>
                                         <p>Mustard Based</p>
@@ -152,7 +171,13 @@ class Login extends Component {
                                     <div className="each-checkbox">
                                         <QuestionMark>
                                             <div className="to-show">?
-                                                <p className="item-description">butt munching boob</p>
+                                                <p className="item-description">
+                                                    AKA North Carolina Style:<br/>
+                                                    Apple Cider Vinegar<br />
+                                                    Ketchup<br />
+                                                    Brown Sugar<br/>
+                                                    Various Spices
+                                                </p>
                                             </div>
                                         </QuestionMark>
                                         <p>Vinegar Based</p>
