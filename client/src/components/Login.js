@@ -14,6 +14,42 @@ const LogInStyle = styled.div`
 `
 
 class Login extends Component {
+
+    state = {
+        user: {},
+        newUser: {
+            name: "",
+            email: "",
+            password: ""
+        }
+    }
+
+    componentDidMount() {
+        this.getAllEmployeeData()
+    }
+
+    getAllEmployeeData = () => {
+        const url = `/api/users`
+        axios.get(url).then(res => {
+            console.log(res);
+        })
+    }
+
+    handleSubmit = event => {
+        event.preventDefault()
+        const payload = {
+            name: this.state.newUser.name,
+            email: this.state.newUser.email,
+            password: this.state.newUser.password
+        };
+        axios.post(`/api/users/`, payload).then(res => {
+            const newUser = res.data
+            const newStateNewUser = { ...this.state.user, newUser }
+            this.setState({ user: newStateNewUser })
+            this.props.history.push(`/userpage/${res.data.id}`)
+        })
+    }
+
     render() {
         return (
             <InvisibleBox>
