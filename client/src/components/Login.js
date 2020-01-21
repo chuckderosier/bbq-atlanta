@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+import axios from 'axios'
 import { ClosedMenuStyle, InvisibleBox, CheckBoxStyle } from '../Styles/ContainerStyle'
 import { FormStyle } from '../Styles/FormStyles'
 import { Title } from '../Styles/TextStyles'
@@ -18,9 +19,10 @@ class Login extends Component {
     state = {
         user: {},
         newUser: {
-            name: "",
-            email: "",
-            password: ""
+            userName: "",
+            userEmail: "",
+            password: "",
+            bbqStyle: []
         }
     }
 
