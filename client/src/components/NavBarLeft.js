@@ -7,7 +7,7 @@ class NavBarLeft extends Component {
         return (
             <NavButtonStyle>
                 <Link to="/" className="button">Edit Profile</Link>
-                <Link to="/" className="button">Add BBQ Joint</Link>
+                <Link to="user/restaurantForm" className="button">Add BBQ Joint</Link>
                 <Link to="/otheruserspage" className="button">Other Folks Joints</Link>
             </NavButtonStyle>
         )
