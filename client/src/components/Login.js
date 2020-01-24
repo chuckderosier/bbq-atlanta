@@ -77,7 +77,7 @@ class Login extends Component {
                                 required
                             />
                             <ButtonStyle>
-                                <button className="button"><Link to="/userpage" className="button">Let's Go!!</Link></button>
+                                <button className="button"><Link to="/user" className="button">Let's Go!!</Link></button>
                             </ButtonStyle>
                         </FormStyle>
                     </LogInStyle>
