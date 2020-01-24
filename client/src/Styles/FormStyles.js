@@ -31,7 +31,7 @@ export const FormStyle = styled.div`
         display: flex;
         flex-direction: column;
         .each-checkbox {
-            margin: 0;
+            margin: 0 0 5px 0;
             display: flex;
             flex-direction: row;
             align-content: center;
