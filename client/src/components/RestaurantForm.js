@@ -22,7 +22,7 @@ class RestaurantForm extends Component {
                             <p>Restaurant Name<span className="required">* required</span></p>
                             <input
                                 type="text"
-                                placeholder="Full Name"
+                                placeholder="Restaurant Name"
                                 name="name"
                                 required
                             />
@@ -31,22 +31,19 @@ class RestaurantForm extends Component {
                                 type="text"
                                 placeholder="Restaurant Address"
                                 name="text"
-                                required
                             />
-                            <p>Rating</p>
+                            <p>Restaurant Overall Rating</p>
                             <p>Phone</p>
                             <input
                                 type="text"
                                 placeholder="Optional"
                                 name="phone"
-                                required
                             />
                             <p>Hours</p>
                             <input
                                 type="text"
                                 placeholder="Optional"
                                 name="hours"
-                                required
                             />
                             <a>Style of BBQ</a>
                             <CheckBoxStyle>
@@ -173,6 +170,7 @@ class RestaurantForm extends Component {
                                         <p>Other</p>
                                         <input type="text" name="otherSauce" id="otherSauce" />
                                     </div>
+                                    <p>Style/Sauce rating</p>
                                 </div>
                             </CheckBoxStyle>
                             <ButtonStyle>
