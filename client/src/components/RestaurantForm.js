@@ -26,20 +26,29 @@ class RestaurantForm extends Component {
                                 name="name"
                                 required
                             />
-                            <p>Address<span className="required">* required</span></p>
+                            <p>Address</p>
                             <input
                                 type="text"
                                 placeholder="Restaurant Address"
                                 name="text"
                                 required
                             />
-                            <p>Enter Password<span className="required">* required</span></p>
+                            <p>Rating</p>
+                            <p>Phone</p>
                             <input
                                 type="text"
-                                placeholder="Enter Password"
-                                name="password"
+                                placeholder="Optional"
+                                name="phone"
                                 required
                             />
+                            <p>Hours</p>
+                            <input
+                                type="text"
+                                placeholder="Optional"
+                                name="hours"
+                                required
+                            />
+                            <a>Style of BBQ</a>
                             <CheckBoxStyle>
                                 <div className="checkbox-container">
                                     <div className="each-checkbox">
