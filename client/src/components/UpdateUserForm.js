@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import styled from 'styled-components'
 import axios from 'axios'
 import { ClosedMenuStyle, InvisibleBox, CheckBoxStyle } from '../Styles/ContainerStyle'
 import { FormStyle } from '../Styles/FormStyles'
@@ -10,19 +9,44 @@ import { FormContainerStyle } from '../Styles/ContainerStyle'
 import { QuestionMark } from '../Styles/QuestionMarkStyle'
 
 class UpdateUserForm extends Component {
+
+    state = {
+        user: {}
+    }
+
+    componentDidMount() {
+        axios.get(`/api/users/${this.props.match.params.userId}`).then((res) => {
+            this.setState({ user: res.data })
+        })
+    }
+
+    handleChange = (event) => {
+        const updatedChangeUser = { ...this.state.user }
+        updatedChangeUser[event.target.name] = event.target.value
+        this.setState({ user: updatedChangeUser })
+    }
+
+    handleUpdate = (event) => {
+        event.preventDefault()
+        axios.patch(`/api/users/${this.props.match.params.userId}`, this.state.user).then(res => {
+            this.props.history.push(`/users/${res.data._id}`)
+        })
+    }
+
     render() {
         return (
             <InvisibleBox>
                 <ClosedMenuStyle>
-                    <FormContainerStyle>
+                    <FormContainerStyle onSubmit={this.handleUpdate}>
                         <Title>
                             <h2>Edit Your Profile</h2>
                         </Title>
                         <FormStyle>
                             <p>Full Name<span className="required">* required</span></p>
                             <input
+                                onChange={this.handleChange}
+                                value={this.state.user.username}
                                 type="text"
-                                placeholder="Full Name"
                                 name="name"
                                 required
                             />
