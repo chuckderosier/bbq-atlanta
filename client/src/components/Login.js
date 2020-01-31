@@ -19,7 +19,7 @@ class Login extends Component {
     state = {
         user: {},
         newUser: {
-            userName: "",
+            username: "",
             userEmail: "",
             password: "",
             bbqStyle: []
@@ -90,7 +90,7 @@ class Login extends Component {
                             <input
                                 type="text"
                                 placeholder="Full Name"
-                                name="name"
+                                name="username"
                                 required
                             />
                             <p>Email<span className="required">* required</span></p>

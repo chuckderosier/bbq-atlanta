@@ -47,22 +47,18 @@ class UpdateUserForm extends Component {
                                 onChange={this.handleChange}
                                 value={this.state.user.username}
                                 type="text"
-                                name="name"
-                                required
                             />
                             <p>Email<span className="required">* required</span></p>
                             <input
+                                onChange={this.handleChange}
+                                value={this.state.user.userEmail}
                                 type="email"
-                                placeholder="Email Address"
-                                name="email"
-                                required
                             />
                             <p>Enter Password<span className="required">* required</span></p>
                             <input
+                                onChange={this.handleChange}
+                                value={this.state.user.password}
                                 type="text"
-                                placeholder="Enter Password"
-                                name="password"
-                                required
                             />
                             <CheckBoxStyle>
                                 <div className="checkbox-container">

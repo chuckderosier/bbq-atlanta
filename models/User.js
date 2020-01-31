@@ -2,7 +2,7 @@ const mongoose = require('../db/connections')
 const Schema = mongoose.Schema
 
 const User = new Schema({
-    userName: String,
+    username: String,
     userEmail: String,
     password: "password",
     bbqStyle: [],
