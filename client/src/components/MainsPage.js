@@ -1,13 +1,22 @@
 import React, { Component } from 'react'
 import { Title } from '../Styles/TextStyles'
-import { ClosedMenuStyle, InvisibleBox, CheckBoxStyle } from '../Styles/ContainerStyle'
+import { OpenMenuStyle, InvisibleBox, CheckBoxStyle, LeftStyle, RightStyle } from '../Styles/ContainerStyle'
 
 class MainsPage extends Component {
     render() {
         return (
-            <div>
-                <p>Main Dishes</p>
-            </div>
+            <InvisibleBox>
+                <OpenMenuStyle>
+                    <LeftStyle>
+                        <Title>
+                            <h2>This is your bbq menu</h2>
+                            <h4>Your preferred BBQ styles:</h4>
+                        </Title>
+                    </LeftStyle>
+                    <RightStyle>
+                    </RightStyle>
+                </OpenMenuStyle>
+            </InvisibleBox>
         )
     }
 }

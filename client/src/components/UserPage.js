@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 import NavBarLeft from './NavBarLeft'
 import NavBarRight from './NavBarRight'
 import { Title, Text } from '../Styles/TextStyles'
-import { InvisibleBox } from '../Styles/ContainerStyle'
-import { LeftStyle, RightStyle } from '../Styles/ContainerStyle'
+import { InvisibleBox, LeftStyle, RightStyle } from '../Styles/ContainerStyle'
 
 class UserPage extends Component {
     render() {
