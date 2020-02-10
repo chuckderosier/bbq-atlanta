@@ -4,6 +4,7 @@ import { BackgroundImage } from './Styles/BackgroundImageStyle'
 import HomePage from './components/HomePage'
 import Login from './components/Login'
 import UserPage from './components/UserPage'
+import UpdateUserForm from './components/UpdateUserForm'
 import OtherUsersPage from './components/OtherUsersPage'
 import RestaurantPage from './components/RestaurantPage'
 import RestaurantForm from './components/RestaurantForm'
@@ -20,9 +21,10 @@ class App extends Component {
             <Route exact path='/user/:userId/restaurant/:restaurantId/desserts' component={DessertsPage} />
             <Route exact path='/user/:userId/restaurant/:restaurantId/sides' component={SidesPage} />
             <Route exact path='/user/:userId/restaurant/:restaurantId/mains' component={MainsPage} />
-            <Route exact path='/user/restaurantForm' component={RestaurantForm} />
+            <Route exact path='/user/:userId/restaurantForm' component={RestaurantForm} />
             <Route exact path='/user/:userId/restaurant' component={RestaurantPage} />
             <Route exact path='/otheruserspage' component={OtherUsersPage} />
+            <Route exact path='/user/updateUserForm' component={UpdateUserForm} />
             <Route exact path='/user' component={UserPage} />
             <Route exact path='/login' component={Login} />
             <Route path='/' component={HomePage} />
