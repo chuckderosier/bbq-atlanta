@@ -11,7 +11,7 @@ class UserPage extends Component {
                 <LeftStyle>
                     <NavBarLeft />
                     <Title>
-                        <h2>This is your bbq menu</h2>
+                        <h2>This is your BBQ menu</h2>
                         <h4>Your preferred BBQ styles:</h4>
                         <Text></Text>
                     </Title>
