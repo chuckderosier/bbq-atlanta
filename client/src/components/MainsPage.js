@@ -9,8 +9,7 @@ class MainsPage extends Component {
                 <OpenMenuStyle>
                     <LeftStyle>
                         <Title>
-                            <h2>This is your bbq menu</h2>
-                            <h4>Your preferred BBQ styles:</h4>
+                            <h2>MAINS</h2>
                         </Title>
                     </LeftStyle>
                     <RightStyle>

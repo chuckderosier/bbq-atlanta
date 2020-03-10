@@ -1,13 +1,23 @@
 import React, { Component } from 'react'
+import { Title } from '../Styles/TextStyles'
+import { OpenMenuStyle, InvisibleBox, CheckBoxStyle, LeftStyle, RightStyle } from '../Styles/ContainerStyle'
 
-class SidesPage extends Component {
+class MainsPage extends Component {
     render() {
         return (
-            <div>
-                <p>Sides Page</p>
-            </div>
+            <InvisibleBox>
+                <OpenMenuStyle>
+                    <LeftStyle>
+                        <Title>
+                            <h2>SIDES</h2>
+                        </Title>
+                    </LeftStyle>
+                    <RightStyle>
+                    </RightStyle>
+                </OpenMenuStyle>
+            </InvisibleBox>
         )
     }
 }
 
-export default SidesPage
+export default MainsPage
