@@ -85,7 +85,7 @@ class RestaurantForm extends Component {
                                         <p>Dry Rub</p>
                                         <input
                                             type="checkbox"
-                                            name="dryRob"
+                                            name="dryRub"
                                             id="dryRub"
                                             className="input"
                                             value="Dry Rub"
